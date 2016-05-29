@@ -11,7 +11,7 @@ Prerequesites:
 *  MySQL</br>
 ** Apache2/Nginx (only if you don't want to use php's built in web server, like in production)</br>
 </br>
-1. Installing Symfony - (http://symfony.com/doc/current/book/installation.html)
+1. Installing Symfony - (http://symfony.com/doc/current/book/installation.html)</br>
     A.  Using Symfony Installer:</br>
       I. Get the installer by running the following commands:</br>
 <PRE>
