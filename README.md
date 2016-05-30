@@ -49,7 +49,8 @@ Prerequesites:
 - If you decided to use PHPs built in web server to host your application then you will have to start the application by running the following command inside the root of your project:</br>
 <PRE>
     $ bin/console server:run</PRE>
-        **There are an array of built in commands provided by symfony.  You can list them as well as any custom commands that you create in your project by just running<PRE>"$ bin/console"</PRE> (ommitting any specific command) from the root of your project.</br>
+
+        **There are an array of built in commands provided by symfony.  You can list them as well as any custom commands that you create in your project by just running "$ bin/console (ommitting any specific command) from the root of your project.</br>
 -- From there you will just go to browse to http://localhost:8000 in your browser to see symfony's default template page. (append this url with /app_dev.php in order to view the application's dev environment)</br>
 </br>
 - If you decide to use another web servper (aache2 or Nginx) check out the symfony cookbook at http://symfony.com/doc/current/cookbook/configuration/web_server_configuration.html then see the default project page by going to:  http://symfony-project.com/app_dev.php</br>
