@@ -2,23 +2,52 @@
 
 namespace AppBundle\Entity;
 
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * @ORM\Entity
+ * @ORM\Table(name="user")
+ */
 class User
 {
     /**
-     * @var string
+     * @ORM\Column(type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    protected $id;
+
+    /**
+     * @ORM\Column(type="string", length=100)
      */
     protected $name;
     
     /**
-     * @var string
+     * @ORM\Column(type="string", length=100)
      */
     protected $email;
     
     /**
-     * @var string
+     * @ORM\Column(type="string", length=100)
      */
     protected $password;
 
+    /**
+     * @return int
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * @param int $id
+     */
+    public function setId($id)
+    {
+        $this->id = $id;
+    }
+    
     /**
      * @return string
      */
