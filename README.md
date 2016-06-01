@@ -11,7 +11,7 @@ Prerequesites:
 *  MySQL</br>
 ** Apache2/Nginx (only if you don't want to use php's built in web server, like in production)</br>
 </br>
-1. Installing Symfony - (http://symfony.com/doc/current/book/installation.html)
+1. Installing Symfony - (http://symfony.com/doc/current/book/installation.html)</br>
     A.  Using Symfony Installer:</br>
       I. Get the installer by running the following commands:</br>
 <PRE>
@@ -49,7 +49,9 @@ Prerequesites:
 - If you decided to use PHPs built in web server to host your application then you will have to start the application by running the following command inside the root of your project:</br>
 <PRE>
     $ bin/console server:run</PRE>
-        **There are an array of built in commands provided by symfony.  You can list them as well as any custom commands that you create in your project by just running<PRE>"$ bin/console"</PRE> (ommitting any specific command) from the root of your project.</br>
+</br>
+    **There are an array of built in commands provided by symfony.  You can list them as well as any custom commands that you create in your project by just running "$ bin/console" (ommitting any specific command) from the root of your project.</br>
+</br>
 -- From there you will just go to browse to http://localhost:8000 in your browser to see symfony's default template page. (append this url with /app_dev.php in order to view the application's dev environment)</br>
 </br>
 - If you decide to use another web servper (aache2 or Nginx) check out the symfony cookbook at http://symfony.com/doc/current/cookbook/configuration/web_server_configuration.html then see the default project page by going to:  http://symfony-project.com/app_dev.php</br>
