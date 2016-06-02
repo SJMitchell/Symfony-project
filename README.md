@@ -1,8 +1,3 @@
-symfony-project.com
-===================
-# Shane Mitchell #
-# Mitchell.ShaneJ@gmail.com #
-
 <strong>This project is just a simple implementation of a Symfony3 project in order to learn familiarize with the Symfony3 Framework.</strong>
 
 Prerequesites:
